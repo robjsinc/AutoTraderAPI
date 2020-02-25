@@ -1,0 +1,39 @@
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.deps.json
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.dll
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.pdb
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.csprojAssemblyReference.cache
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.AssemblyInfoInputs.cache
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.AssemblyInfo.cs
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.dll
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.pdb
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Repo.dll
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Repo.pdb
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.csproj.CopyComplete
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.deps.json
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.dll
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.pdb
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Repo.dll
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AT\AT.Service\bin\Debug\netcoreapp3.0\AT.Repo.pdb
+C:\Users\robjs\source\repos\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.csprojAssemblyReference.cache
+C:\Users\robjs\source\repos\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.AssemblyInfoInputs.cache
+C:\Users\robjs\source\repos\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.AssemblyInfo.cs
+C:\Users\robjs\source\repos\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.csproj.CopyComplete
+C:\Users\robjs\source\repos\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.dll
+C:\Users\robjs\source\repos\AT\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.deps.json
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Service.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Repo.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\bin\Debug\netcoreapp3.0\AT.Repo.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.csprojAssemblyReference.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.AssemblyInfoInputs.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.AssemblyInfo.cs
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.csproj.CopyComplete
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Service\obj\Debug\netcoreapp3.0\AT.Service.pdb

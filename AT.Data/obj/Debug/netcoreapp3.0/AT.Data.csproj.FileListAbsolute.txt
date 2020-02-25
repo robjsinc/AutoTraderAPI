@@ -1,0 +1,24 @@
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.deps.json
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.csprojAssemblyReference.cache
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.AssemblyInfoInputs.cache
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.AssemblyInfo.cs
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\OneDrive\Visual Studio\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AT\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.deps.json
+C:\Users\robjs\source\repos\AT\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AT\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.csprojAssemblyReference.cache
+C:\Users\robjs\source\repos\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.AssemblyInfoInputs.cache
+C:\Users\robjs\source\repos\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.AssemblyInfo.cs
+C:\Users\robjs\source\repos\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AT\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.deps.json
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\bin\Debug\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.csprojAssemblyReference.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.AssemblyInfoInputs.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.AssemblyInfo.cs
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Debug\netcoreapp3.0\AT.Data.pdb

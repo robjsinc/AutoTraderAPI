@@ -37,5 +37,7 @@ namespace AT.Data.Models
         public string MinPrice { get; set; }
         [NotMapped]
         public string MaxPrice { get; set; }
+        [NotMapped]
+        public string Distance { get; set; }
     }
 }

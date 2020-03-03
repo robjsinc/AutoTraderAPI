@@ -36,13 +36,18 @@ namespace AT.Service.Services
         {
             var vehicles = _vehicleRepository.GetVehiclesBySelectedInfo(vehicle).ToList();
 
-            if (postcode != "null")
+            if (!postcode.Equals("null"))
             {
                 vehicles = await GetPostCodeData(vehicles, postcode);
             }
-            if (vehicle.InsuranceGroup != "Any")
+            if (!vehicle.InsuranceGroup.Equals("Any"))
             {
                 vehicles = SortVehiclesByInsuranceGroup(vehicle, vehicles);
+            }
+            if (vehicle.Distance != null)
+            {
+                vehicles = vehicles.Where(x => Convert.ToDecimal(x.DistanceFromCustomerPostCode.Substring(0, vehicles[0].DistanceFromCustomerPostCode.Length - 3))
+                                             < Convert.ToDecimal(vehicle.Distance)).ToList();
             }
 
             return vehicles;

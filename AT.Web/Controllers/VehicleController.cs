@@ -47,7 +47,7 @@ namespace AT.Web.Controllers
         // GET: vehicle/GetBySelectedInfo
         [HttpGet]
         [Route("GetBySelectedInfo")]
-        public async Task<IActionResult> Get(string make, string model, string minprice, string maxprice, string bodyType, string insuranceGroup, string postcode)
+        public async Task<IActionResult> Get(string make, string model, string minprice, string maxprice, string bodyType, string insuranceGroup, string postcode, string distance)
         {
             var vehicle = new Vehicle()
             {
@@ -56,7 +56,8 @@ namespace AT.Web.Controllers
                 MinPrice = minprice,
                 MaxPrice = maxprice,
                 BodyType = bodyType,
-                InsuranceGroup = insuranceGroup
+                InsuranceGroup = insuranceGroup,
+                Distance = distance
             };
 
             var vehicles = await _vehicleService.GetVehiclesBySelectedInfo(vehicle, postcode);

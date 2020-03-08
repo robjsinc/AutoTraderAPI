@@ -8,7 +8,7 @@ namespace AT.Service.Interfaces
     {
         IEnumerable<TEntity> GetAll();
         TEntity Get(int id);
-        Task<IEnumerable<Vehicle>> GetVehiclesBySelectedInfo(Vehicle vehicle, string postCode);
+        Task<IEnumerable<Vehicle>> GetVehiclesBySelectedInfo(Vehicle vehicle, string postcode);
         Task<List<Vehicle>> GetPostCodeData(List<Vehicle> vehicles, string postcode);
         Task<string> GetLongitudeAndLatitude(string postcode);
         IEnumerable<string> GetMakes();

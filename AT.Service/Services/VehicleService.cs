@@ -69,7 +69,7 @@ namespace AT.Service.Services
                     ParseJsonValuesToVehicle(dealerPostCodeApiResponse, vehicle);
 
                     var request = new HttpRequestMessage(HttpMethod.Get,
-                $"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins={latitude},{longitude}&destinations={vehicle.Latitude},{vehicle.Longitute}&key=AIzaSyCpws1VlWBD0lAJMWUq02NYYn4XQnANV-M");
+                                      $"https://maps.googleapis.com/maps/api/distancematrix/json?units=imperial&origins={latitude},{longitude}&destinations={vehicle.Latitude},{vehicle.Longitute}&key=AIzaSyCpws1VlWBD0lAJMWUq02NYYn4XQnANV-M");
 
                     var client = _clientFactory.CreateClient();
 

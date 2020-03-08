@@ -1,32 +1,41 @@
-﻿using AT.Data.Models;
+﻿using AT.CustomExceptions;
+using AT.Data.Models;
 using AT.Service.Interfaces;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using System;
 using System.Threading.Tasks;
 
 namespace AT.Web.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-   // [EnableCors("AllowAll")]
+    //[EnableCors("AllowAll")]
     public class VehicleController : ControllerBase
     {
         private readonly IVehicleService<Vehicle> _vehicleService;
+        private readonly ILogger<VehicleController> _logger;
 
-        public VehicleController(IVehicleService<Vehicle> vehicleService)
+        public VehicleController(ILogger<VehicleController> logger, IVehicleService<Vehicle> vehicleService)
         {
             _vehicleService = vehicleService;
+            _logger = logger;
         }
 
         // GET: vehicle
         [HttpGet]
         public IActionResult Get()
         {
-            var vehicles = _vehicleService.GetAll(); 
+            var vehicles = _vehicleService.GetAll();
+            
             if (vehicles == null)
             {
-                return NotFound("Vehicle records could not be found");
+                var exception = new NotFoundCustomException("Not Found", "Records could not be retrieved from server", "Get");
+               // _logger.LogError(exception.ToString());
+                return NotFound(exception);
             }
-         
+            
             return Ok(vehicles);
         }
 

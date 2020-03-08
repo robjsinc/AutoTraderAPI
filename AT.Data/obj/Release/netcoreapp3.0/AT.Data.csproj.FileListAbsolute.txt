@@ -14,3 +14,11 @@ C:\Users\robjs\source\repos\AT\AT.Data\obj\Release\netcoreapp3.0\AT.Data.Assembl
 C:\Users\robjs\source\repos\AT\AT.Data\obj\Release\netcoreapp3.0\AT.Data.AssemblyInfo.cs
 C:\Users\robjs\source\repos\AT\AT.Data\obj\Release\netcoreapp3.0\AT.Data.dll
 C:\Users\robjs\source\repos\AT\AT.Data\obj\Release\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\bin\Release\netcoreapp3.0\AT.Data.deps.json
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\bin\Release\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\bin\Release\netcoreapp3.0\AT.Data.pdb
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Release\netcoreapp3.0\AT.Data.csprojAssemblyReference.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Release\netcoreapp3.0\AT.Data.AssemblyInfoInputs.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Release\netcoreapp3.0\AT.Data.AssemblyInfo.cs
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Release\netcoreapp3.0\AT.Data.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Data\obj\Release\netcoreapp3.0\AT.Data.pdb

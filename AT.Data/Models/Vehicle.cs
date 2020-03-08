@@ -23,6 +23,8 @@ namespace AT.Data.Models
         public int DealerID { get; set; }
         public Dealer Dealer { get; set; }
 
+        public List<Image> Images { get; set; }
+
         [NotMapped]
         public string DistanceFromCustomerPostCode { get; set; }
         [NotMapped]

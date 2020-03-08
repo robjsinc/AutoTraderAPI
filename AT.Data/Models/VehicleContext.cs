@@ -15,6 +15,7 @@ namespace AT.Data.Models
         public DbSet<EngineInfo> EngineInfo { get; set; }
         public DbSet<StandardEquipment> StandardEquipment { get; set; }
         public DbSet<Dealer> Dealers { get; set; }
+        public DbSet<Image> Images { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

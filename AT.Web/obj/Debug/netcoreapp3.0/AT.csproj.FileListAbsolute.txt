@@ -467,3 +467,5 @@ C:\Users\robjs\source\repos\AutoTraderAPI\AT.Web\bin\Debug\netcoreapp3.0\Microso
 C:\Users\robjs\source\repos\AutoTraderAPI\AT.Web\bin\Debug\netcoreapp3.0\Microsoft.IdentityModel.JsonWebTokens.dll
 C:\Users\robjs\source\repos\AutoTraderAPI\AT.Web\bin\Debug\netcoreapp3.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\robjs\source\repos\AutoTraderAPI\AT.Web\obj\Debug\netcoreapp3.0\AT.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Web\bin\Debug\netcoreapp3.0\AutoMapper.dll
+C:\Users\robjs\source\repos\AutoTraderAPI\AT.Web\bin\Debug\netcoreapp3.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

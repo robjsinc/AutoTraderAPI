@@ -1,15 +1,18 @@
 using AT.Data.Models;
+using AT.Middleware;
 using AT.Repo.ConnectionFactory;
 using AT.Repo.Interfaces;
 using AT.Repo.Repositories;
 using AT.Service.Interfaces;
 using AT.Service.Services;
+using AT.Web.Controllers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace AT.Web
 {
@@ -49,6 +52,7 @@ namespace AT.Web
             {
                 app.UseDeveloperExceptionPage();
             }
+            app.UseMiddleware<CustomExceptionMiddleware>();
 
             app.UseHttpsRedirection();
 
@@ -58,7 +62,6 @@ namespace AT.Web
 
             app.UseEndpoints(endpoints =>
             {
-                
                 endpoints.MapControllerRoute(
                     name: "Vehicle",
                     pattern: "{controller}/{action}/{id?}",

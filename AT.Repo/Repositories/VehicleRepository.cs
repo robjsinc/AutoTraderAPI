@@ -20,7 +20,6 @@ namespace AT.Repo.Repositories
 
         public IEnumerable<Vehicle> GetAll()
         {
-            
             var engineInfo = _vehicleContext.EngineInfo.ToList();
             var dealer = _vehicleContext.Dealers.ToList();
             var vehicles = _vehicleContext.Vehicles.ToList();
@@ -29,11 +28,28 @@ namespace AT.Repo.Repositories
         }
         public Vehicle Get(int id)
         {
-
             var vehicle = _vehicleContext.Vehicles.Find(id);
             vehicle.EngineInfo = _vehicleContext.EngineInfo.Find(id);
             vehicle.StandardEquipment = _vehicleContext.StandardEquipment.Find(id);
             vehicle.Dealer = _vehicleContext.Dealers.Find(vehicle.DealerID);
+
+            vehicle.Images = new List<Image>();
+
+            var query = (from c in _vehicleContext.Images
+                                where c.VehicleId == id
+                                select new { 
+                                    c.ImageId,
+                                    c.ImageName,
+                                    c.ImagePath,
+                                    c.VehicleId 
+                                }).ToList();
+
+            query.ForEach(image => vehicle.Images.Add(new Image() {
+                ImageId = image.ImageId,
+                ImageName = image.ImageName,
+                ImagePath = image.ImagePath,
+                VehicleId = image.VehicleId
+            }));
 
             return vehicle;
         }
@@ -66,7 +82,7 @@ namespace AT.Repo.Repositories
             using (IDbConnection conn = _conn.Connection())
             {
                 conn.Open();
-                vehicles = conn.Query<Vehicle, StandardEquipment, EngineInfo, Dealer, Vehicle>(
+                vehicles = conn.Query<Vehicle, StandardEquipment, EngineInfo, Dealer, Vehicle> (
                     sql,
                     (vehicle, standardEquipment, engineInfo, dealer) =>
                          {
@@ -77,7 +93,6 @@ namespace AT.Repo.Repositories
                          },
                     splitOn: "VehicleID, DealerID").Distinct().OrderBy(x => x.Price).ToList();
             }
-
             return vehicles;
         }
 

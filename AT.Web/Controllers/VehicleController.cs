@@ -1,6 +1,7 @@
 ﻿using AT.CustomExceptions;
 using AT.Data.Models;
 using AT.Service.Interfaces;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
@@ -25,6 +26,7 @@ namespace AT.Web.Controllers
 
         // GET: vehicle
         [HttpGet]
+        [Authorize]
         public IActionResult Get()
         {
             var vehicles = _vehicleService.GetAll();
@@ -32,7 +34,7 @@ namespace AT.Web.Controllers
             if (vehicles == null)
             {
                 var exception = new NotFoundCustomException("Not Found", "Records could not be retrieved from server", "Get");
-               // _logger.LogError(exception.ToString());
+                _logger.LogError($"{exception.Path},{exception.Description},{exception.Message}");
                 return NotFound(exception);
             }
             

@@ -26,6 +26,7 @@ namespace AT.Web.Controllers
         private IConfiguration _config;
         private readonly ILoginRepository<User> _loginRepository;
 
+        [HttpGet]
         public IActionResult Login(string username, string password)
         {
             User login = new User()

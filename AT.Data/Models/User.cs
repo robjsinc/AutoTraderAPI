@@ -8,7 +8,5 @@ namespace AT.Data.Models
         public string UserName { get; set; }
         [NotMapped]
         public string Password { get; set; }
-        [NotMapped]
-        public string EmailAddress { get; set; }
     }
 }
